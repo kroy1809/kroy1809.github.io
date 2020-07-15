@@ -84,7 +84,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  zoom: 125%;
+  zoom: 120%;
 }
 
 [tabindex="-1"]:focus {
@@ -11655,4 +11655,18 @@ textarea.form-control {
 
 #nav-menu-item {
   padding: 10px;
+}
+
+#nav-contact-item {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#nav-menu-item:hover {
+  color: white;
+}
+
+#nav-contact-item:hover {
+  color: white;
+  background-color: #3388fb;
 }
